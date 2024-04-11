@@ -29,6 +29,10 @@ int main() {
 		}
 	}cout << endl;
 
+	cout << "Reversed order: ";
+	for (int i = 0; i < 10; i++) {
+		cout << randomDisplay[10 - 1 - i] << " ";
+	}cout << endl;
 }
 
 	
