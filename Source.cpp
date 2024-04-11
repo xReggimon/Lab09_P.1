@@ -5,6 +5,7 @@ using namespace std;
 
 int main() {
 
+	//This is the random used for the array
 	srand(time(0));
 
 	int randomDisplay[10];
