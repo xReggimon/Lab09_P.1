@@ -33,6 +33,9 @@ int main() {
 	for (int i = 0; i < 10; i++) {
 		cout << randomDisplay[10 - 1 - i] << " ";
 	}cout << endl;
+
+	cout << "First and last: " << randomDisplay[0] << " " << randomDisplay[10 - 1];
+
 }
 
 	
