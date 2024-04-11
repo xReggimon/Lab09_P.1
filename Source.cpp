@@ -1,0 +1,22 @@
+#include <iostream>
+#include <stdlib.h>
+#include <time.h>
+using namespace std;
+
+int main() {
+
+	srand(time(0));
+
+	int randomDisplay[10];
+
+	for (int i = 0; i < 10; i++) {
+		randomDisplay[i] = rand() % 9000 + 1000;
+	}
+	cout << "The random integers: ";
+	for (int i = 0; i < 10; i++) {
+		cout << randomDisplay[i]<<" ";
+	}
+
+}
+
+	
