@@ -22,6 +22,13 @@ int main() {
 		cout << randomDisplay[i] << " ";
 	} cout << endl;
 
+	cout << "Even values: ";
+	for (int i = 0; i < 10; i++) {
+		if (randomDisplay[i] % 2 == 0) {
+			cout << randomDisplay[i] << " ";
+		}
+	}cout << endl;
+
 }
 
 	
