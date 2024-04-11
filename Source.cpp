@@ -14,8 +14,13 @@ int main() {
 	}
 	cout << "The random integers: ";
 	for (int i = 0; i < 10; i++) {
-		cout << randomDisplay[i]<<" ";
-	}
+		cout << randomDisplay[i] << " ";
+	} cout << endl;
+
+	cout << "Even indices: ";
+	for (int i = 0; i < 10; i += 2) {
+		cout << randomDisplay[i] << " ";
+	} cout << endl;
 
 }
 
